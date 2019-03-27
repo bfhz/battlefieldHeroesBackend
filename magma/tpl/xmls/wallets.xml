@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<billingAccounts>
+    <walletAccount>
+        <currency>_DV</currency>
+        <balance>1000.0000</balance>
+    </walletAccount>
+    <walletAccount>
+        <currency>_DH</currency>
+        <balance>1337.0000</balance>
+    </walletAccount>
+    <walletAccount>
+        <currency>_DB</currency>
+        <balance>1024.0000</balance>
+    </walletAccount>
+</billingAccounts>
+

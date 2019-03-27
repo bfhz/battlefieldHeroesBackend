@@ -1,0 +1,49 @@
+hash: d1ab8994b16d11609c8d1589b0f4f42c5f0ddb3cf87ba479387b340d2446008c
+updated: 2019-03-27T14:53:40.436662083-03:00
+imports:
+- name: github.com/go-chi/chi
+  version: da24bba8dcd4021cafac38724bf10dccc97c3e36
+  subpackages:
+  - middleware
+- name: github.com/go-chi/render
+  version: 3215478343fbc559bd3fc08f7031bb134d6bdad5
+- name: github.com/go-sql-driver/mysql
+  version: 72cd26f257d44c1114970e19afddcd812016007e
+- name: github.com/gocraft/dbr
+  version: 042fe86dc2daa9684f746ab337971e84147e8856
+  subpackages:
+  - dialect
+- name: github.com/google/gops
+  version: 9fda3b87c7b32caeeb2974e7cc2e71e60a597fdf
+  subpackages:
+  - agent
+  - internal
+  - signal
+- name: github.com/guregu/null
+  version: 80515d440932108546bcade467bb7d6968e812e2
+- name: github.com/kardianos/osext
+  version: 2bc1f35cddc0cc527b4bc3dce8578fc2a6c11384
+- name: github.com/kelseyhightower/envconfig
+  version: f611eb38b3875cc3bd991ca91c51d06446afa14c
+- name: github.com/konsorten/go-windows-terminal-sequences
+  version: f55edac94c9bbba5d6182a4be46d86a2c9b5b50e
+- name: github.com/satori/go.uuid
+  version: f58768cc1a7a7e77a3bd49e98cdd21419399b6a3
+- name: github.com/sirupsen/logrus
+  version: dae0fa8d5b0c810a8ab733fbd5510c7cae84eca4
+- name: github.com/subosito/gotenv
+  version: 69b5b6104433beb2cb9c3ce00bdadf3c7c2d3f34
+- name: golang.org/x/crypto
+  version: a5d413f7728c81fb97d96a2b722368945f651e78
+  subpackages:
+  - ssh/terminal
+- name: golang.org/x/sys
+  version: f49334f85ddcf0f08d7fb6dd7363e9e6d6b777eb
+  subpackages:
+  - unix
+  - windows
+- name: google.golang.org/appengine
+  version: 54a98f90d1c46b7731eb8fb305d2a321c30ef610
+  subpackages:
+  - cloudsql
+testImports: []
