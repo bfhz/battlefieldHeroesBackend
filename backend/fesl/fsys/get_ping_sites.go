@@ -25,10 +25,10 @@ type pingSite struct {
 }
 
 var pingSites = []pingSite{
-	{"26.49.251.103", network.RegionAsia, 0},
-	{"26.49.251.103", network.RegionEurope, 0},
-	{"26.49.251.103", network.RegionEastCoast, 0},
-	{"26.49.251.103", network.RegionWestCoast, 0},
+	{"127.0.0.1", network.RegionAsia, 0},
+	{"127.0.0.1", network.RegionEurope, 0},
+	{"127.0.0.1", network.RegionEastCoast, 0},
+	{"127.0.0.1", network.RegionWestCoast, 0},
 }
 
 // GetPingSites handles fsys.GetPingSites command.

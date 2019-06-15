@@ -33,7 +33,7 @@ type reqEGAM struct {
 	Region string `fesl:"R-U-dataCenter"`
 	// R-U-elo=1000
 	StatsElo int `fesl:"R-U-elo"`
-	// R-U-externalIp=26.49.251.103
+	// R-U-externalIp=127.0.0.1
 	ExternalIP string `fesl:"R-U-externalIp"`
 	// R-U-kit=0
 	StatsKit int `fesl:"R-U-kit"`

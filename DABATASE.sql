@@ -392,7 +392,7 @@ INSERT INTO `users` (`id`, `username`, `email`, `birthday`, `language`, `country
 (3, 'Kiop', '1234@gmail.com', '1997-07-31', 'enUS', '', '$2y$10$yqc94mokmEtovgK1oXjoOeAN2/14iacs9BKDu.qokd8NWN4GoeGM2', NULL, '2017-12-10 02:59:21', '2017-12-10 02:59:21', NULL, NULL, '123'),
 (4, 'diego', 'syn@gmail.com', '2018-01-27', 'fr', 'FR', 'diego', NULL, '2018-01-27 07:19:31', '2018-01-27 07:19:31', NULL, NULL, '434334'),
 (7, 'aldo2', 'aldo2@email.com', '1980-07-21', 'enUS', '', '$2y$10$bQN2f08GJCMjukkpUn.EneU3GJ6PG7Bl11pJ2hSIOxZFhhsW57ynK', NULL, '2019-01-06 04:48:35', '2019-01-06 04:52:30', NULL, '26.36.195.228', 'banana'),
-(5, 'caio', '22232@gmail.com', '1997-07-31', 'enUS', '', '$2y$10$M9RiC3XlhebivlXRPXeccupEZ2aajmfS4UMwiPICLeNkhsCYdI5Qe', NULL, '2018-01-30 03:11:10', '2018-01-30 04:52:54', '{\"news\":false}', '26.49.251.103', '6CUMvXUu6HNBajzR3wEtLwzfF4EgIrCJ'),
+(5, 'caio', '22232@gmail.com', '1997-07-31', 'enUS', '', '$2y$10$M9RiC3XlhebivlXRPXeccupEZ2aajmfS4UMwiPICLeNkhsCYdI5Qe', NULL, '2018-01-30 03:11:10', '2018-01-30 04:52:54', '{\"news\":false}', '127.0.0.1', '6CUMvXUu6HNBajzR3wEtLwzfF4EgIrCJ'),
 (6, 'aldo', 'aldo@email.com', '1980-07-21', 'enUS', '', '$2y$10$oLU58YbnAU0Rz7I7niVFZu4.CjPLJDCsTcBJB//yOGMzQo7CheNSq', NULL, '2019-01-06 03:11:42', '2019-01-06 03:11:42', NULL, NULL, 'aldo'),
 (8, 'bfhgamer', 'bfhgamer@email.com', '1998-10-12', 'enUS', '', '$2y$10$E5jEGPKiNSC9r8Ih.Z.Owe/GnwCBBTurmji6mbuJxc2YI.QvSTJm.', NULL, '2019-01-06 04:50:56', '2019-01-06 04:50:56', NULL, NULL, 'japa'),
 (9, 'japa', 'japa@email.com', '1983-03-21', 'enUS', '', '$2y$10$mlHm0kMrQTqx0Q5M5HpsyOkk5km53ZXJXi0lLkAAovg9AMn0AYBOa', 'ctjfri8us6gzRifWzV7gPDJHdusZTeeTzmp04ylJp13ZaE7lyXljL6UmIpZP', '2019-01-20 06:34:08', '2019-01-20 06:34:08', NULL, NULL, NULL),

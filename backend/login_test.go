@@ -46,7 +46,7 @@ func createCommand(payload []byte) *codec.Cmd {
 }
 
 func TestServerLogin(t *testing.T) {
-	ipAddr, _ := net.ResolveIPAddr("", "26.49.251.103")
+	ipAddr, _ := net.ResolveIPAddr("", "127.0.0.1")
 	client := &net.Client{
 		IpAddr:   ipAddr,
 		IsActive: true,
@@ -102,7 +102,7 @@ func TestServerLogin(t *testing.T) {
 }
 
 func TestClientLogin(t *testing.T) {
-	ipAddr, _ := net.ResolveIPAddr("", "26.49.251.103")
+	ipAddr, _ := net.ResolveIPAddr("", "127.0.0.1")
 	client := &net.Client{
 		IpAddr:   ipAddr,
 		IsActive: true,

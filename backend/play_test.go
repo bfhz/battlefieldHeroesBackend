@@ -14,7 +14,7 @@ package internal_test
 // )
 
 // func TestPlayNow(t *testing.T) {
-// 	ipAddr, _ := net.ResolveIPAddr("", "26.49.251.103")
+// 	ipAddr, _ := net.ResolveIPAddr("", "127.0.0.1")
 // 	client := &net.Client{
 // 		IpAddr:   ipAddr,
 // 		IsActive: true,
@@ -138,17 +138,17 @@ package internal_test
 // 		},
 // 	}
 
-// 	// 21:47:23 : [09:47:23 PM] <-N GDAT {INT-IP=26.49.251.103, IP=26.49.251.103, B-U-map_name=village, B-U-easyzone=no, INT-PORT=18567, B-U-elo_rank=1000, B-U-avail_slots_national=yes, NAME=[iad]A}
+// 	// 21:47:23 : [09:47:23 PM] <-N GDAT {INT-IP=127.0.0.1, IP=127.0.0.1, B-U-map_name=village, B-U-easyzone=no, INT-PORT=18567, B-U-elo_rank=1000, B-U-avail_slots_national=yes, NAME=[iad]A}
 // 	thtrCtrl.GameData(network.EClientCmd{client, gdatPacket})
 
-// 	// 21:47:23 : [09:47:23 PM] ->N EGAM 0x40000000 {R-U-accid=3, R-U-category=3, R-U-dataCenter=iad, R-U-elo=979, R-U-externalIp=26.49.251.103, R-U-kit=2, R-U-lvl=30, R-U-team=2, PORT=61774, R-INT-PORT=61774, R-INT-IP=192.168.1.104, PTYPE=P, LID=1, GID=7, TID=4}
+// 	// 21:47:23 : [09:47:23 PM] ->N EGAM 0x40000000 {R-U-accid=3, R-U-category=3, R-U-dataCenter=iad, R-U-elo=979, R-U-externalIp=127.0.0.1, R-U-kit=2, R-U-lvl=30, R-U-team=2, PORT=61774, R-INT-PORT=61774, R-INT-IP=192.168.1.104, PTYPE=P, LID=1, GID=7, TID=4}
 // 	egamPacket := &codec.Cmd{
 // 		Msg: codec.Fields{
 // 			"R-U-accid":      `3`,
 // 			"R-U-category":   `3`,
 // 			"R-U-dataCenter": `iad`,
 // 			"R-U-elo":        `979`,
-// 			"R-U-externalIp": `26.49.251.103`,
+// 			"R-U-externalIp": `127.0.0.1`,
 // 			"R-U-kit":        `2`,
 // 			"R-U-lvl":        `30`,
 // 			"R-U-team":       `2`,
@@ -165,7 +165,7 @@ package internal_test
 // 	// 21:47:23 : [09:47:23 PM] <-N EGAM {LID=1, GID=7, TID=4}
 // 	thtrCtrl.EnterGame(network.EClientCmd{client, egamPacket})
 
-// 	// 21:47:23 : [09:47:23 PM] <-U EGEG {LID=1, PID=3, UGID=Server, P=18567, EKEY=O65zZ2D2A58mNrZw1hmuJw%3d%3d, INT-PORT=18567, TID=4, PL=pc, INT-IP=26.49.251.103, SECRET=2587913, HUID=1, GID=7, TICKET=2018751182, I=26.49.251.103}
+// 	// 21:47:23 : [09:47:23 PM] <-U EGEG {LID=1, PID=3, UGID=Server, P=18567, EKEY=O65zZ2D2A58mNrZw1hmuJw%3d%3d, INT-PORT=18567, TID=4, PL=pc, INT-IP=127.0.0.1, SECRET=2587913, HUID=1, GID=7, TICKET=2018751182, I=127.0.0.1}
 // 	egegPacket := &codec.Cmd{
 // 		Msg: codec.Fields{
 // 			"LID":      `1`,
@@ -176,12 +176,12 @@ package internal_test
 // 			"INT-PORT": `18567`,
 // 			"TID":      `4`,
 // 			"PL":       `pc`,
-// 			"INT-IP":   `26.49.251.103`,
+// 			"INT-IP":   `127.0.0.1`,
 // 			"SECRET":   `2587913`,
 // 			"HUID":     `1`,
 // 			"GID":      `7`,
 // 			"TICKET":   `2018751182`,
-// 			"I":        `26.49.251.103`,
+// 			"I":        `127.0.0.1`,
 // 		},
 // 	}
 

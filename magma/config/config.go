@@ -12,8 +12,8 @@ var (
 type cfg struct {
 	LogLevel string `envconfig:"LOG_LEVEL" default:"DEBUG"`
 
-	HTTPBind  string `envconfig:"HTTP_BIND" default:"26.49.251.103:80"`
-	HTTPSBind string `envconfig:"HTTPS_BIND" default:"26.49.251.103:443"`
+	HTTPBind  string `envconfig:"HTTP_BIND" default:"127.0.0.1:80"`
+	HTTPSBind string `envconfig:"HTTPS_BIND" default:"127.0.0.1:443"`
 
 	CertificatePath string `envconfig:"CERTIFICATE_PATH" required:"true"`
 	PrivateKeyPath  string `envconfig:"PRIVATE_KEY_PATH" required:"true"`

@@ -15,7 +15,7 @@ var (
 type cfg struct {
 	LogLevel string `envconfig:"LOG_LEVEL" default:"INFO"`
 
-	GameSpyIP      string `envconfig:"GAMESPY_IP" default:"26.49.251.103"`
+	GameSpyIP      string `envconfig:"GAMESPY_IP" default:"127.0.0.1"`
 	FeslClientPort int    `envconfig:"FESL_CLIENT_PORT" default:"18270"`
 	FeslServerPort int    `envconfig:"FESL_SERVER_PORT" default:"18051"`
 	ThtrClientPort int    `envconfig:"THEATER_CLIENT_PORT" default:"18275"`
@@ -23,16 +23,16 @@ type cfg struct {
 
 	// An address for clients where theater can be found.
 	// Preferable: domain name without protocol scheme and port
-	ThtrAddr string `envconfig:"THEATER_ADDR" default:"26.49.251.103"`
+	ThtrAddr string `envconfig:"THEATER_ADDR" default:"127.0.0.1"`
 
 	// Telemetry
-	TelemetryIP    string `envconfig:"TELEMETRY_IP" default:"26.49.251.103"`
+	TelemetryIP    string `envconfig:"TELEMETRY_IP" default:"127.0.0.1"`
 	TelemetryPort  int    `envconfig:"TELEMETRY_PORT" default:"13505"`
 	TelemetryToken string `envconfig:"TELEMETRY_TOKEN"`
 }
 
 type MySQL struct {
-	DatabaseHost         string `envconfig:"DATABASE_HOST" default:"26.49.251.103"`
+	DatabaseHost         string `envconfig:"DATABASE_HOST" default:"127.0.0.1"`
 	DatabasePort         int    `envconfig:"DATABASE_PORT" default:"3306"`
 	DatabaseUserName     string `envconfig:"DATABASE_USERNAME" default:"root"`
 	DatabasePassword     string `envconfig:"DATABASE_PASSWORD" default:"test"`
